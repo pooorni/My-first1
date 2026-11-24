@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI for Manufacturing | Live Webinar</title>
+
+<style>
+:root {
+--bg:#07111f;
+--panel:#0d1c2e;
+--text:#f3f7fb;
+--muted:#a7b8ca;
+--accent:#58d4e7;
+--line:#20354c;
+}
+
+* { box-sizing:border-box; }
+
+body {
+margin:0;
+background:var(--bg);
+color:var(--text);
+font-family:Arial,sans-serif;
+line-height:1.6;
+}
+
+.wrap {
+width:92%;
+max-width:1120px;
+margin:auto;
+}
+
+nav {
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:22px 0;
+border-bottom:1px solid var(--line);
+}
+
+.brand { font-weight:bold; }
+.brand span { color:var(--accent); }
+
+.navlinks {
+display:flex;
+gap:24px;
+}
+
+a {
+color:inherit;
+text-decoration:none;
+}
+
+.btn {
+display:inline-block;
+background:var(--accent);
+color:#06202c;
+padding:12px 19px;
+border-radius:30px;
+font-weight:bold;
+}
+
+.hero {
+display:grid;
+grid-template-columns:1.1fr .9fr;
+gap:40px;
+align-items:center;
+padding:70px 0;
+}
+
+.tag {
+display:inline-block;
+border:1px solid #2a5267;
+border-radius:30px;
+padding:6px 12px;
+color:var(--accent);
+font-size:12px;
+}
+
+h1 {
+font-size:55px;
+line-height:1.1;
+}
+
+h1 em {
+color:var(--accent);
+font-style:normal;
+}
+
+.lead {
+color:var(--muted);
+font-size:18px;
+}
+
+.details {
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+margin:25px 0;
+}
+
+.detail {
+background:var(--panel);
+border:1px solid var(--line);
+padding:12px;
+border-radius:12px;
+}
+
+.detail small {
+display:block;
+color:var(--muted);
+}
+
+.visual {
+background:linear-gradient(145deg,#0e2a41,#16354c);
+border:1px solid #28516a;
+border-radius:24px;
+padding:26px;
+min-height:300px;
+}
+
+.metric {
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+}
+
+.metric div {
+background:#0a1929;
+border:1px solid #29445b;
+border-radius:14px;
+padding:16px;
+}
+
+.metric strong {
+display:block;
+color:var(--accent);
+font-size:23px;
+}
+
+.metric span {
+color:var(--muted);
+font-size:12px;
+}
+
+section {
+padding:55px 0;
+border-top:1px solid var(--line);
+}
+
+h2 { font-size:32px; }
+
+section p { color:var(--muted); }
+
+.grid {
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:16px;
+}
+
+.card {
+background:var(--panel);
+border:1px solid var(--line);
+padding:22px;
+border-radius:16px;
+}
+
+.card h3 { margin-bottom:5px; }
+
+.agenda {
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:12px;
+}
+
+.agenda-item {
+display:flex;
+gap:16px;
+background:var(--panel);
+padding:16px;
+border-radius:14px;
+}
+
+.time {
+color:var(--accent);
+font-weight:bold;
+}
+
+.speaker {
+display:flex;
+gap:22px;
+align-items:center;
+background:var(--panel);
+padding:24px;
+border-radius:18px;
+}
+
+.avatar {
+width:76px;
+height:76px;
+border-radius:50%;
+background:var(--accent);
+display:grid;
+place-items:center;
+font-size:25px;
+font-weight:bold;
+color:#06202c;
+}
+
+.register {
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+background:var(--panel);
+padding:30px;
+border-radius:22px;
+}
+
+form {
+display:grid;
+gap:12px;
+}
+
+input,select {
+width:100%;
+padding:13px;
+border:1px solid #2c4359;
+border-radius:10px;
+background:#081525;
+color:white;
+}
+
+form button {
+border:0;
+cursor:pointer;
+font-size:16px;
+}
+
+footer {
+padding:28px 0;
+color:var(--muted);
+border-top:1px solid var(--line);
+}
+
+@media(max-width:800px) {
+.hero,.register { grid-template-columns:1fr; }
+.grid,.agenda { grid-template-columns:1fr; }
+.navlinks { display:none; }
+h1 { font-size:40px; }
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<nav>
+<div class="brand">INDUSTRY<span>AI</span> LAB</div>
+<div class="navlinks">
+<a href="#learn">What you'll learn</a>
+<a href="#agenda">Agenda</a>
+<a href="#speaker">Speaker</a>
+</div>
+<a class="btn" href="#register">Register</a>
+</nav>
+
+<main>
+
+<div class="hero">
+<div>
+<div class="tag">Live online webinar · Practical insights</div>
+
+<h1>AI for <em>Manufacturing</em></h1>
+
+<p class="lead">
+Discover how artificial intelligence is reshaping production—from predictive maintenance and quality inspection to smarter, data-driven operations.
+</p>
+
+<div class="details">
+<div class="detail">
+<small>Date</small>
+<b>Dec 12, 2026</b>
+</div>
+
+<div class="detail">
+<small>Time</small>
+<b>11:00 AM – 12:30 PM IST</b>
+</div>
+
+<div class="detail">
+<small>Format</small>
+<b>Live · Online</b>
+</div>
+</div>
+
+<a class="btn" href="#register">Reserve your seat →</a>
+</div>
+
+<div class="visual">
+<h3>Build the factory of tomorrow</h3>
+
+<div class="metric">
+<div><strong>Predict</strong><span>Equipment issues before downtime</span></div>
+<div><strong>Detect</strong><span>Quality defects with computer vision</span></div>
+<div><strong>Optimize</strong><span>Process and energy efficiency</span></div>
+<div><strong>Connect</strong><span>People, machines & data</span></div>
+</div>
+</div>
+</div>
+
+<section id="learn">
+<h2>Make AI practical on the factory floor.</h2>
+<p>Explore realistic AI use cases and understand where to begin.</p>
+
+<div class="grid">
+<div class="card">
+<h3>Predictive maintenance</h3>
+<p>Use equipment data to anticipate failures and reduce downtime.</p>
+</div>
+
+<div class="card">
+<h3>AI quality inspection</h3>
+<p>Discover how computer vision can help spot defects.</p>
+</div>
+
+<div class="card">
+<h3>Smart operations</h3>
+<p>Explore forecasting and production planning.</p>
+</div>
+
+<div class="card">
+<h3>Digital twins</h3>
+<p>Understand virtual models that support simulation.</p>
+</div>
+
+<div class="card">
+<h3>Automation & robotics</h3>
+<p>See how AI supports flexible automation.</p>
+</div>
+
+<div class="card">
+<h3>Implementation roadmap</h3>
+<p>Learn how to choose a use case and plan a pilot.</p>
+</div>
+</div>
+</section>
+
+<section id="agenda">
+<h2>Webinar Agenda</h2>
+<p>90 minutes. Clear takeaways.</p>
+
+<div class="agenda">
+<div class="agenda-item">
+<div class="time">11:00</div>
+<div><b>Welcome & AI foundations</b>
+<p>What AI means in manufacturing.</p></div>
+</div>
+
+<div class="agenda-item">
+<div class="time">11:15</div>
+<div><b>High-impact use cases</b>
+<p>Maintenance, inspection and operations.</p></div>
+</div>
+
+<div class="agenda-item">
+<div class="time">11:40</div>
+<div><b>Implementation framework</b>
+<p>Data readiness and pilot selection.</p></div>
+</div>
+
+<div class="agenda-item">
+<div class="time">12:05</div>
+<div><b>Example walkthrough + Q&A</b>
+<p>Discuss practical challenges.</p></div>
+</div>
+</div>
+</section>
+
+<section id="speaker">
+<h2>Meet Your Speaker</h2>
+
+<div class="speaker">
+<div class="avatar">AS</div>
+<div>
+<h3>Arjun Sharma</h3>
+<p><b>AI & Industrial Transformation Consultant</b></p>
+<p>12+ years working with analytics, automation and digital transformation initiatives.</p>
+</div>
+</div>
+</section>
+
+<section id="register">
+<div class="register">
+
+<div>
+<h2>Ready to make manufacturing smarter?</h2>
+<p>Save your spot and join the conversation on practical AI adoption.</p>
+<p><b>Saturday, December 12 · 11:00 AM IST</b></p>
+</div>
+
+<form id="registrationForm">
+<input required name="name" placeholder="Full name">
+<input required type="email" name="email" placeholder="Work email">
+<input name="company" placeholder="Company / organization">
+
+<select name="role" required>
+<option value="">Your role</option>
+<option>Student</option>
+<option>Engineer</option>
+<option>Manufacturing / Operations</option>
+<option>Manager / Leader</option>
+<option>Other</option>
+</select>
+
+<button class="btn" type="submit">Reserve my seat</button>
+
+<small>Sample registration interaction for demo purposes.</small>
+</form>
+
+</div>
+</section>
+
+</main>
+
+<footer>
+© 2026 IndustryAI Lab · Sample webinar landing page.
+</footer>
+
+</div>
+
+<script>
+document.getElementById('registrationForm')
+.addEventListener('submit',function(e){
+e.preventDefault();
+
+const n=this.elements.name.value.trim();
+
+alert('Thank you, '+n+'! Your demo registration is recorded on this page.');
+
+this.reset();
+});
+</script>
+
+</body>
+</html>
